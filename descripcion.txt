@@ -1,0 +1,2 @@
+Para el desarrollo de nuestro proyecto se creara un top 5 por parte de los dos participantes haciendo uso de videos musicales que seran
+presentados en forma de top 5 de nuestros favoritos haciendo uso de html, css, sass, javascript, git y github
