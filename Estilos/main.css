@@ -6,4 +6,48 @@
   font-size: 16px;
   font-family: 'Open Sans',Arial, Helvetica, sans-serif; }
 
+body {
+  margin: 0 auto;
+  background: url("Imagenes/fondo musical 1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed; }
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-style: italic; }
+
+h2 {
+  text-align: center; }
+
+div .topMarissa {
+  text-align: center;
+  color: #fff; }
+
+div .topKevin {
+  text-align: center;
+  color: #fff; }
+
+div .puesto {
+  color: #fff;
+  display: flex;
+  margin: 5% 5%; }
+
+div .descripcion {
+  text-align: justify;
+  color: #fff; }
+
+div .video {
+  width: 600px; }
+
+.contenedor {
+  width: 90%;
+  margin: 0% auto;
+  background: rgba(5, 5, 5, 0.295); }
+
+header {
+  padding: 50 0;
+  height: 9%; }
+
 /*# sourceMappingURL=main.css.map */
