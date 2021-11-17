@@ -1,46 +1,55 @@
-h1 {
-    text-align: center;
+.contenedor {
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  background: rgba(5, 5, 5, 0.295);
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  .tops{
     color: #fff;
-    font-style: italic;
-    
-}
-h2{
-    text-align: center; 
+    h2{
+      font-size: 25px;
+      margin: 30px 0;
+    }
+    .topMarissa
+    {
+      text-align: center;
+    }
+    .topKevin
+    {
+      text-align: center;
+    }
   }
-
-div .topMarissa
-{
-text-align: center;
-color: #fff;
-
 }
-div .topKevin
-{
-text-align: center;
- color: #fff;
-}
-div .puesto{
-    color: #fff;
-    display:flex;
-    margin: 5% 5%;
-    
+
+.puesto{
+  color: #fff;
+  display:flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  hover{
+    background-color: rgba(5, 5, 5, 0.5);
+    border-bottom: #000 3px solid;
   }
-  
-  
-  div .descripcion
+  .tituloP{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-size: 20px;
+    font-weight: 400;
+    width: 150px;
+  }
+  .descripcion
   {
     text-align: justify;
     color: #fff;
+    width: 300px;
   }
-  
-  div .video
+  .video
   {
-    width: 600px;
+    padding: 0 100px;
   }
   
-  .contenedor {
-    width: 90%;
-    margin: 0% auto;
-    background: rgba(5, 5, 5, 0.295);
-    
-  }
+}

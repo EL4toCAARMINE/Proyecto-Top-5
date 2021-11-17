@@ -5,7 +5,7 @@ function llenarDatos(info){
         puestos.push(`
         <div class="puesto">
             <div class="tituloP">
-                <h2>Número ${i+1}</h2>
+                <p>Número ${i+1}</p>
             </div>
             <div class="video">
             <iframe width="250" src="${info[0][0]}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
