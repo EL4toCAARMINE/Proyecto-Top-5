@@ -2,7 +2,7 @@
   width: 90%;
   margin: 30px auto;
   padding: 20px;
-  background: rgba(5, 5, 5, 0.295);
+  background: rgba(99, 68, 68, 0.4);
   display: flex;
   align-content: center;
   align-items: center;
@@ -12,6 +12,8 @@
     h2{
       font-size: 25px;
       margin: 30px 0;
+      border-bottom: #fff 2px solid;
+      padding: 10px;
     }
     .topMarissa
     {
@@ -29,10 +31,7 @@
   display:flex;
   flex-direction: row;
   margin-bottom: 30px;
-  hover{
-    background-color: rgba(5, 5, 5, 0.5);
-    border-bottom: #000 3px solid;
-  }
+  padding: 15px;
   .tituloP{
     display: flex;
     align-items: center;
@@ -52,4 +51,7 @@
     padding: 0 100px;
   }
   
+}.puesto:hover{
+  border-bottom: #fff 1px solid;
+  background: rgba(5, 5, 5, 0.5);
 }
